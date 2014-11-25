@@ -1,0 +1,22 @@
+name: INREM Fluoride Data
+description: INREM Fluoride Data visualizations for Gujarat and MP
+
+markdown: kramdown
+
+baseurl: /inrem
+
+sass:
+    sass_dir: _scss
+    style: :expanded
+
+
+gems:
+    - jemoji
+    - jekyll-sitemap
+
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE
+    - README.md
+
